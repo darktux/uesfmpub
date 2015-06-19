@@ -1,0 +1,75 @@
+.formulario{
+	margin: auto;
+	background-color: #fff;
+	width: 700px;
+	padding-bottom: 70px;
+	padding-left: 25px;
+	padding-right: 25px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	
+}
+label{
+	margin-top: 10px;
+}
+p{
+	text-align: center;
+	font-size: 25px;
+}
+
+#submitfile01{
+	display: block;
+	position: absolute;
+	right: 0px;
+	bottom: -50px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#cancelfile01{
+	display: block;
+	position: absolute;
+	right: 110px;
+	bottom: -50px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#imagenes{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: #ECF0F3;
+	overflow: auto;
+}
+
+#objetivos{
+	background-color: #333333;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	padding-left: 15px;
+	overflow: auto;
+}
+
+.objetivo{
+	width: 100px; 
+	height: 115px;
+	margin:10px;
+	background-color: #ecf0f3;
+	color: #555;
+}
+
+.basurero{
+	width: 100px; 
+	height: 115px;
+	margin:10px;
+	background-color: #ff4455;
+	color: #fff;
+}
